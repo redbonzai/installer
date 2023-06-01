@@ -1,6 +1,38 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/installer/compare/v4.2.17...master)
+## [Unreleased](https://github.com/laravel/installer/compare/v4.5.0...master)
+
+## [v4.5.0](https://github.com/laravel/installer/compare/v4.4.3...v4.5.0) - 2023-03-20
+
+- Use Pest v2 by @nunomaduro in https://github.com/laravel/installer/pull/262
+
+## [v4.4.3](https://github.com/laravel/installer/compare/v4.4.2...v4.4.3) - 2023-03-07
+
+- Prevent unknown option with git commands by @zepfietje in https://github.com/laravel/installer/pull/260
+
+## [v4.4.2](https://github.com/laravel/installer/compare/v4.4.1...v4.4.2) - 2023-03-02
+
+- Adds option "dark" to jetstream installation by @MarioPerini in https://github.com/laravel/installer/pull/259
+
+## [v4.4.1](https://github.com/laravel/installer/compare/v4.4.0...v4.4.1) - 2023-02-21
+
+- Add an option to install PHPUnit by @likeadeckofcards in https://github.com/laravel/installer/pull/256
+
+## [v4.4.0](https://github.com/laravel/installer/compare/v4.3.0...v4.4.0) - 2023-02-14
+
+### Added
+
+- Adds Laravel Breeze scaffolding by @nunomaduro in https://github.com/laravel/installer/pull/253
+
+### Fixed
+
+- Fixes installation of Pest in Laravel 10 by @nunomaduro in https://github.com/laravel/installer/pull/254
+
+## [v4.3.0](https://github.com/laravel/installer/compare/v4.2.17...v4.3.0) - 2023-02-07
+
+### Added
+
+- Adds `--pest` flag to use Pest by @nunomaduro in https://github.com/laravel/installer/pull/251
 
 ## [v4.2.17](https://github.com/laravel/installer/compare/v4.2.16...v4.2.17) - 2022-09-13
 
