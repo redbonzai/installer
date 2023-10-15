@@ -1,6 +1,50 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/installer/compare/v4.5.0...master)
+## [Unreleased](https://github.com/laravel/installer/compare/v5.1.3...master)
+
+## [v5.1.3](https://github.com/laravel/installer/compare/v5.1.2...v5.1.3) - 2023-10-10
+
+- Remove extra DB_DATABASE by [@ConnySjoblom](https://github.com/ConnySjoblom) in https://github.com/laravel/installer/pull/287
+- Adjusts new command with new Breeze options by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/installer/pull/288
+
+## [v5.1.2](https://github.com/laravel/installer/compare/v5.1.1...v5.1.2) - 2023-09-26
+
+- Add the Livewire stack by [@mpociot](https://github.com/mpociot) in https://github.com/laravel/installer/pull/285
+
+## [v5.1.1](https://github.com/laravel/installer/compare/v5.1.0...v5.1.1) - 2023-09-12
+
+- Fix Jetstream SSR option by [@jessarcher](https://github.com/jessarcher) in https://github.com/laravel/installer/pull/281
+
+## [v5.1.0](https://github.com/laravel/installer/compare/v5.0.4...v5.1.0) - 2023-08-29
+
+- Fixes breeze installation with `--ssr` options by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/installer/pull/278
+- Adds missing jetstream options by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/installer/pull/279
+- Add ability to select default database connection by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/installer/pull/275
+- Updated to use the Process constructor to install Pest and use `Composer` helper class by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/installer/pull/274
+
+## [v5.0.4](https://github.com/laravel/installer/compare/v5.0.3...v5.0.4) - 2023-08-22
+
+No major changes.
+
+## [v5.0.3](https://github.com/laravel/installer/compare/v5.0.2...v5.0.3) - 2023-08-15
+
+- Add option to indicate whether Breeze should be scaffolded with TypeScript support by [@weavdale](https://github.com/weavdale) in https://github.com/laravel/installer/pull/271
+
+## [v5.0.2](https://github.com/laravel/installer/compare/v5.0.1...v5.0.2) - 2023-08-08
+
+- Show the directory name at the end of the installer by [@jessarcher](https://github.com/jessarcher) in https://github.com/laravel/installer/pull/270
+
+## [v5.0.1](https://github.com/laravel/installer/compare/v5.0.0...v5.0.1) - 2023-08-03
+
+- Don't prompt for Git if Github Option is found by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/installer/pull/269
+
+## [v5.0.0](https://github.com/laravel/installer/compare/v4.5.1...v5.0.0) - 2023-08-01
+
+- Update prompts by [@jessarcher](https://github.com/jessarcher) in https://github.com/laravel/installer/pull/267
+
+## [v4.5.1](https://github.com/laravel/installer/compare/v4.5.0...v4.5.1) - 2023-07-25
+
+- Wrap PHP_BINARY in quotes by [@mpociot](https://github.com/mpociot) in https://github.com/laravel/installer/pull/268
 
 ## [v4.5.0](https://github.com/laravel/installer/compare/v4.4.3...v4.5.0) - 2023-03-20
 
